@@ -1,0 +1,54 @@
+1. What each HTML element does:
+2. Why you chose specific input types:
+3. How your navigation structure works:
+
+<h1> to <h6>:
+- Define headings in decreasing importance from <h1> (important) to <h6> (least).
+- Help structure content hierarchically for readability and accessibility.
+
+<nav>:
+- Defines a navigation section containing links to other pages on the website.
+
+<ul> and <ol>:
+- <ul>: Unordered list used for skills.
+- <ol>: Ordered list for sequential items used for education.
+
+<img>:
+- Displays an image. The "alt" attribute provides alternative text for screen readers and when the image cannot load.
+- width and height set proper size.
+
+<table>:
+- Used to display structured data, like work projects, in rows and columns.
+
+<form>, <input>, <textarea>, etc.:
+- <input type="text">: For entering a name or text.
+- <input type="email">: Ensures a properly formatted email.
+- <input type="tel">: Allows phone number input, with pattern validation.
+- <textarea>: Allows multi-line text input for messages.
+- <input type="checkbox">: For selecting multiple contact methods.
+- <input type="radio">: For selecting one option out of a group (e.g., inquiry type).
+- <input type="submit">: Submits the form.
+- <input type="date">: Lets users choose a date via calendar UI.
+- <input type="range">: Provides a slider for urgency level (0–5).
+
+HEADER, MAIN, SECTION, FOOTER:
+- <header>: Contains the page title and navigation.
+- <main>: Main content area of the page.
+- <section>: Organizes related content logically.
+- <footer>: Contains copyright.
+
+INPUT TYPE SELECTION:
+
+- type="email": Validates that input includes an email format (e.g., name@example.com).
+- type="tel": Designed for phone numbers and allows pattern restrictions.
+- type="date": Provides a user-friendly date picker.
+- type="range": Good for numeric selections like urgency levels.
+- type="checkbox" and type="radio": Ideal for multi- and single-select questions.
+- Using proper types ensures better user experience and built-in form validation.
+
+NAVIGATION STRUCTURE:
+
+- The <nav> element wraps a list of links to other pages: Portfolio, About, Contact.
+- Each page includes a navigation menu for easy access to other sections.
+- Links use relative paths (e.g., "about.html") to keep them functional across local or deployed environments.
+- This improves usability, encourages exploration, and is consistent across the site.
